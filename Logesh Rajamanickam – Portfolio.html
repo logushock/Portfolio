@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Logesh Rajamanickam – SaaS Account Manager & Onboarding Specialist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--hero:#1d1a5c;--hero-ink:#f4f2ff;--hero-mute:#bcb8ee;--pop:#ffc93c;--bg:#f1f0fb;--surface:#fff;--ink:#1c1b3a;--mute:#5a5878;--line:#d9d6f0;--accent:#4a3fd1;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hero:#14123f;--bg:#0f0e2b;--surface:#1a1844;--ink:#efedff;--mute:#a9a6d6;--line:#302d6b;--accent:#a99dff;color-scheme:dark}}
+:root[data-theme="dark"]{--hero:#14123f;--bg:#0f0e2b;--surface:#1a1844;--ink:#efedff;--mute:#a9a6d6;--line:#302d6b;--accent:#a99dff;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 'DM Sans',system-ui,sans-serif}
+h1,h2,h3{font-family:Sora,'DM Sans',system-ui,sans-serif;margin:0;line-height:1.1}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--pop);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+.top{background:var(--hero);color:var(--hero-ink);padding-bottom:0}
+nav{display:flex;gap:22px;padding:22px 0;font-size:15px;font-weight:500;flex-wrap:wrap}
+nav a{color:var(--hero-mute);text-decoration:none}nav a:hover{color:var(--hero-ink)}
+nav .brand{margin-right:auto;color:var(--pop);font:800 18px Sora,sans-serif}
+.hero{padding:48px 0 72px}
+.hero h1{font-size:clamp(46px,9vw,110px);font-weight:800;letter-spacing:-.035em;max-width:11ch}
+.hero .role{font:600 clamp(18px,2.4vw,24px) Sora,sans-serif;color:var(--pop);margin:24px 0 18px}
+.hero p{color:var(--hero-mute);max-width:56ch;margin:0 0 30px;font-size:18px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 24px;border-radius:99px;font-weight:700;text-decoration:none}
+.btn.p{background:var(--pop);color:#1d1a5c}
+.btn.s{border:2px solid var(--hero-mute);color:var(--hero-ink)}
+.band{background:var(--pop);color:#1d1a5c}
+.band .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.band div.m{padding:26px 18px 26px 0}
+.band b{display:block;font:800 clamp(30px,4.4vw,48px)/1 Sora,sans-serif}
+.band span{font-size:15px;font-weight:500;display:block;margin-top:6px}
+section{padding:72px 0}
+h2.t{font-size:clamp(28px,4vw,44px);font-weight:800;letter-spacing:-.02em;margin-bottom:8px}
+.lead{color:var(--mute);margin:0 0 40px;max-width:58ch}
+.case{display:grid;grid-template-columns:150px 1fr;gap:28px;padding:30px 0;border-top:2px solid var(--ink)}
+.case:last-child{border-bottom:2px solid var(--ink)}
+.case .n{font:800 46px/1 Sora,sans-serif;color:var(--accent)}
+.case .n small{display:block;font:500 14px 'DM Sans',sans-serif;color:var(--mute);margin-top:8px}
+.case h3{font-size:22px;margin-bottom:10px}
+.case p{margin:0 0 8px;color:var(--mute);max-width:64ch}.case p b{color:var(--ink)}
+.job{display:grid;grid-template-columns:200px 1fr;gap:28px;padding:28px 0;border-top:1px solid var(--line)}
+.job .d{color:var(--mute);font-size:15px}
+.job h3{font-size:21px;margin-bottom:2px}
+.job .c{color:var(--accent);font-weight:700;margin-bottom:10px}
+.job ul{margin:0;padding-left:20px;color:var(--mute)}.job li{margin-bottom:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.box{background:var(--surface);border-radius:18px;padding:24px}
+.box h3{font-size:18px;margin-bottom:14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{border:1.5px solid var(--line);padding:4px 12px;border-radius:99px;font-size:15px}
+.box ul{margin:0;padding-left:18px;color:var(--mute)}.box li{margin-bottom:8px}
+.end{background:var(--hero);color:var(--hero-ink);text-align:center;padding:84px 0}
+.end h2{font-size:clamp(30px,5vw,56px);font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
+.end p{color:var(--hero-mute);margin:0 auto 30px;max-width:50ch}
+.end .btns{justify-content:center}
+footer{background:var(--hero);color:var(--hero-mute);text-align:center;font-size:14px;padding:0 0 36px}
+@media(max-width:780px){.band .wrap{grid-template-columns:1fr 1fr}.case,.job{grid-template-columns:1fr;gap:10px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap">
+<nav aria-label="Sections"><span class="brand">LR</span><a href="#results">Results</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+<header class="hero">
+<h1>Logesh Rajamanickam</h1>
+<div class="role">Account Manager &amp; Client Onboarding Specialist, Healthcare SaaS</div>
+<p>I own the customer relationship from kickoff to renewal. In 4+ years across healthcare SaaS and revenue cycle management, I have onboarded enterprise clients, trained teams through system transitions, and caught billing errors that protected revenue.</p>
+<div class="btns"><a class="btn p" href="mailto:logeshlearning83@gmail.com">Email me</a><a class="btn s" href="https://www.linkedin.com/in/logesh-rajamanickam-62b7822a5/" target="_blank" rel="noopener">View LinkedIn</a></div>
+</header></div></div>
+
+<div class="band"><div class="wrap">
+<div class="m"><b>120%</b><span>of quarterly onboarding target</span></div>
+<div class="m"><b>~$5M</b><span>monthly client value managed</span></div>
+<div class="m"><b>98%</b><span>average CSAT</span></div>
+<div class="m"><b>$50K</b><span>estimated annual savings</span></div>
+</div></div>
+
+<section id="results"><div class="wrap">
+<h2 class="t">Selected results</h2>
+<p class="lead">Four pieces of work that show how I handle onboarding, risk, and retention.</p>
+<article class="case"><div class="n">120%<small>of onboarding target</small></div><div><h3>Client onboarding and platform adoption</h3><p><b>Scope:</b> Enterprise and mid-market healthcare accounts worth about $5M in combined monthly client value.</p><p><b>What I did:</b> Acted as the single point of contact across email, calls, and tickets for two enterprise accounts.</p><p><b>Result:</b> Averaged 120% against a target of 55 onboardings and adoptions per quarter.</p></div></article>
+<article class="case"><div class="n">$50K<small>saved per year (est.)</small></div><div><h3>Revenue protection through workflow review</h3><p><b>What I did:</b> Ran deep-dive workflow assessments on high-value accounts and traced billing logic errors and incorrect adjudications.</p><p><b>Result:</b> Implemented a fix that saves an estimated $50K annually.</p></div></article>
+<article class="case"><div class="n">0<small>downtime, 50 people trained</small></div><div><h3>Training through a major system transition</h3><p><b>What I did:</b> Led end-to-end technical training for a 50-member team and built reusable training modules for proprietary SaaS platforms.</p><p><b>Result:</b> The transition ran with zero downtime.</p></div></article>
+<article class="case"><div class="n">12%<small>fewer claim denials</small></div><div><h3>Root cause analysis and documentation</h3><p><b>What I did:</b> Reviewed Unapplied Cash and Aged AR reports weekly and gave senior management data-backed recommendations. I also wrote standardised SOPs for client-facing applications.</p><p><b>Result:</b> Denial rates fell 12% and onboarding errors fell 20%.</p></div></article>
+</div></section>
+
+<section id="experience" style="padding-top:0"><div class="wrap">
+<h2 class="t">Experience</h2>
+<p class="lead">Four years moving from voice support to owning client accounts.</p>
+<div class="job"><div class="d">May 2026 to present</div><div><h3>Professional skill development</h3><div class="c">Customer success and ITSM certifications</div><ul><li>Completing customer success and Freshworks coursework (see Skills).</li></ul></div></div>
+<div class="job"><div class="d">April 2024 to May 2026<br>Chennai, TN</div><div><h3>Senior Client Partner (USA)</h3><div class="c">Access Healthcare Services</div><ul><li>Owned end-to-end relationships for two enterprise healthcare accounts as the single point of contact.</li><li>Raised, tracked, and resolved client issues in Jira with technical and product teams, keeping to SLAs.</li><li>Served as the main liaison between internal teams and client stakeholders.</li></ul></div></div>
+<div class="job"><div class="d">April 2022 to April 2024<br>Chennai, TN</div><div><h3>Client Support Specialist (Voice), USA &amp; UK</h3><div class="c">Omega Healthcare</div><ul><li>Handled high-volume calls with US healthcare clients: account queries, claim status, and escalations.</li><li>Contributed to a 98% average CSAT working with support and engineering teams.</li></ul></div></div>
+</div></section>
+
+<section id="skills" style="padding-top:0"><div class="wrap">
+<h2 class="t">Skills and credentials</h2>
+<p class="lead">Account management skills backed by tools and training.</p>
+<div class="grid">
+<div class="box"><h3>Account management</h3><div class="tags"><span>Client onboarding</span><span>Retention planning</span><span>Risk mitigation</span><span>Stakeholder management</span><span>Contract management</span><span>Client advocacy</span><span>Change management</span><span>Training and enablement</span></div></div>
+<div class="box"><h3>Tools</h3><div class="tags"><span>Epic</span><span>Freshservice</span><span>Jira</span><span>Zoom</span><span>Intercom</span><span>Advanced Excel</span><span>SQL</span><span>ITIL</span><span>REST and webhooks</span></div></div>
+<div class="box"><h3>Certifications</h3><ul><li>Lean and Six Sigma Green Belt, Alison Academy (2026)</li><li>Gen AI Essentials for Customer Success, CustomerSuccessU (2026)</li><li>Freshdesk Product Expert Advanced, Freshworks University (2026)</li><li>Freshservice Fundamentals, Freshworks University (2026 to 2027)</li><li>Customer Success Advanced Concepts, CustomerSuccessU (2026 to 2027)</li></ul></div>
+<div class="box"><h3>Education</h3><p style="margin:0;color:var(--mute)">B.E. Electronics &amp; Instrumentation<br>Kongu Engineering College, Erode<br>2017 to 2020</p></div>
+</div></div></section>
+
+<div class="end" id="contact"><div class="wrap">
+<h2>Let's talk about your customers</h2>
+<p>I am looking for a SaaS account management role where I can own onboarding, adoption, and renewals.</p>
+<div class="btns"><a class="btn p" href="mailto:logeshlearning83@gmail.com">logeshlearning83@gmail.com</a><a class="btn s" href="tel:+917904087997">790-408-7997</a><a class="btn s" href="https://www.linkedin.com/in/logesh-rajamanickam-62b7822a5/" target="_blank" rel="noopener">LinkedIn</a></div>
+</div></div>
+<footer>© Logesh Rajamanickam</footer>
+</body>
+</html>
